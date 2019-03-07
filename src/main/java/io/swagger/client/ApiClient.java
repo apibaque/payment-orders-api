@@ -76,7 +76,10 @@ import okio.Okio;
 public class ApiClient {
 
 //    private String basePath = "https://localhost:8000";
-    private String basePath = "http://consent-app-mongodb.b9ad.pro-us-east-1.openshiftapps.com";
+//    private String basePath = "http://consent-app-mongodb.b9ad.pro-us-east-1.openshiftapps.com";
+    private String basePath = "http://consent-app-consent-payment-project.apps.cloud.rbc.cl";
+    
+   
     
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
